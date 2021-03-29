@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="c5b17644e9b6ae13bb384d72781855da">
+    <link href="ca1317457587979f793f9176fe8959b1" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="6c0535f1500abbf419bf42f253a9ff3a">
+
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>The Simple Todo App</h1>
+
+    <p class="main2">Helping you manage your shopping-list since 2021</p>
+
+    <p class="main">
+      Click the item to turn the color to red, double click the item to turn the
+      color back to black.
+    </p>
+
+    <div class="container">
+      <input type="text" class="inputField" placeholder="Enter items">
+      <button class="addTodo">Add Item</button>
+    </div>
+    <div class="todoContainer"></div>
+    <script src="b99a878c08d8235b1c87df06de3a4e46"></script>
+  </body>
+</html>

@@ -1,0 +1,96 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  h1 {
+    margin-top: 5rem;
+    font-size: 4rem;
+    color: blue;
+    text-align: center;
+    font-family: lato;
+  }
+}
+
+@mixin buttonStyle {
+  padding: 0 1rem;
+  font-family: lato;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 500px;
+  box-shadow: 0rem 0.2rem 0.7rem rgba(black, 0.5);
+  cursor: pointer;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1rem;
+
+  .inputField {
+    border-radius: 500px;
+    border-width: 0.1rem;
+    margin-right: 0.5rem;
+    padding: 0.5rem;
+    box-shadow: 0rem 0.2rem 0.7rem rgba(black, 0.5);
+    border-width: 1px;
+    border: gray;
+    font-size: 2rem;
+  }
+
+  button {
+    @include buttonStyle();
+  }
+}
+
+.todoContainer {
+  margin-top: 2rem;
+}
+
+.item {
+  display: flex;
+  font-family: lato;
+  justify-content: center;
+  // cursor: pointer;
+  font-size: 2rem;
+  margin-top: 1.2rem;
+}
+
+.deleteButton {
+  @include buttonStyle() margin-left: 2rem;
+  margin-top: 0.5rem;
+}
+
+.main {
+  display: flex;
+  padding: 0rem 5rem;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: lato;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.main2 {
+  display: flex;
+  padding: 0rem 5rem;
+  text-align: center;
+  font-family: lato;
+  font-size: 2rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: darken(blue, 10%);
+}

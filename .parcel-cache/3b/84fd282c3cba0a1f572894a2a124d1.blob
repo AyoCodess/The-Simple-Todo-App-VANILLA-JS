@@ -1,0 +1,122 @@
+html {
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body h1 {
+  margin-top: 5rem;
+  font-size: 4rem;
+  color: blue;
+  text-align: center;
+  font-family: lato;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 1rem;
+}
+
+.container .inputField {
+  border-radius: 500px;
+  border-width: 0.1rem;
+  margin-right: 0.5rem;
+  padding: 0.5rem;
+  -webkit-box-shadow: 0rem 0.2rem 0.7rem rgba(0, 0, 0, 0.5);
+          box-shadow: 0rem 0.2rem 0.7rem rgba(0, 0, 0, 0.5);
+  border-width: 1px;
+  border: gray;
+  font-size: 2rem;
+}
+
+.container button {
+  padding: 0 1rem;
+  font-family: lato;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 500px;
+  -webkit-box-shadow: 0rem 0.2rem 0.7rem rgba(0, 0, 0, 0.5);
+          box-shadow: 0rem 0.2rem 0.7rem rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.todoContainer {
+  margin-top: 2rem;
+}
+
+.item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: lato;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 2rem;
+  margin-top: 0.7rem;
+}
+
+.deleteButton {
+  padding: 0 1rem;
+  font-family: lato;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 500px;
+  -webkit-box-shadow: 0rem 0.2rem 0.7rem rgba(0, 0, 0, 0.5);
+          box-shadow: 0rem 0.2rem 0.7rem rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0rem 5rem;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: lato;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0rem 5rem;
+  text-align: center;
+  font-family: lato;
+  font-size: 2rem;
+  margin-top: 1rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #0000cc;
+}
