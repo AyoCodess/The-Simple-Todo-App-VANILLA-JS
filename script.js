@@ -56,4 +56,6 @@ addTodoButton.addEventListener("click", function () {
       newListItem.style.color = "black";
     });
   }
+
+  console.log(`ayo`);
 });
